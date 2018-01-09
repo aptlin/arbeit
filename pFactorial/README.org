@@ -1,0 +1,4 @@
+* Arbitrary-Precision Computation of a Factorial 
+  - ~./files~ :: a directory containing key input & output files:
+    + ~input.txt~ :: a file containing an integer which factorial we compute
+    + ~output.txt~ :: a factorial of a number from ~input.txt~ 

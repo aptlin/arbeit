@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+project("pFactorial")
+file(GLOB ALL_SOURCE_FILES src/*.cpp)
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+include(linter.cmake)
+include_directories(src src/include)
+add_executable(${PROJECT_NAME} src/${PROJECT_NAME}.cpp)

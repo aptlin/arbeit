@@ -1,0 +1,6 @@
+* k-Way Merge Sort with a Memory Limit
+  - ~./files~ :: a directory containing key input & output files:
+    + ~memory.txt~ :: a file containing an integer memory limit in kilobytes
+    + ~input.txt~ :: a file of lines to sort
+    + ~output.txt~ :: a file with lines from ~input.txt~ sorted
+  - ~./tmp/~ :: a directory with temporary files
